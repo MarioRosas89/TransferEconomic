@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "anMgtBA0G3DJWP9ILkYLOGQ1eJW9IwIqThc+MBUI/OV37ussb38zPPIoFoPKuAc1pvzVHzqpIdZDtNXf5yqfSQ==",
+  "dgSpecHash": "BKLlDiOYbbhbkpFCaNLZ/Bjt783pelg/ueXm5lwfTvIykRj29SrPZdZk4/5gmbBkrgJbxBl2L9iVykIjZztFpw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mario.rosas\\source\\repos\\TransferEconomic\\TransferEconomic\\TransferEconomic.csproj",
+  "projectFilePath": "C:\\Users\\mario.rosas\\OneDrive - NearShore Technology\\Documents\\TransferEconomic\\TransferEconomic\\TransferEconomic.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mario.rosas\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
     "C:\\Users\\mario.rosas\\.nuget\\packages\\duende.identityserver\\5.2.0\\duende.identityserver.5.2.0.nupkg.sha512",

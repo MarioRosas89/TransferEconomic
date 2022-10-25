@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mario.rosas\\source\\repos\\TransferEconomic\\TransferEconomic\\TransferEconomic.csproj": {}
+    "C:\\Users\\mario.rosas\\OneDrive - NearShore Technology\\Documents\\TransferEconomic\\TransferEconomic\\TransferEconomic.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mario.rosas\\source\\repos\\TransferEconomic\\TransferEconomic\\TransferEconomic.csproj": {
+    "C:\\Users\\mario.rosas\\OneDrive - NearShore Technology\\Documents\\TransferEconomic\\TransferEconomic\\TransferEconomic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mario.rosas\\source\\repos\\TransferEconomic\\TransferEconomic\\TransferEconomic.csproj",
+        "projectUniqueName": "C:\\Users\\mario.rosas\\OneDrive - NearShore Technology\\Documents\\TransferEconomic\\TransferEconomic\\TransferEconomic.csproj",
         "projectName": "TransferEconomic",
-        "projectPath": "C:\\Users\\mario.rosas\\source\\repos\\TransferEconomic\\TransferEconomic\\TransferEconomic.csproj",
+        "projectPath": "C:\\Users\\mario.rosas\\OneDrive - NearShore Technology\\Documents\\TransferEconomic\\TransferEconomic\\TransferEconomic.csproj",
         "packagesPath": "C:\\Users\\mario.rosas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mario.rosas\\source\\repos\\TransferEconomic\\TransferEconomic\\obj\\",
+        "outputPath": "C:\\Users\\mario.rosas\\OneDrive - NearShore Technology\\Documents\\TransferEconomic\\TransferEconomic\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mario.rosas\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -8,21 +8,21 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TransferEconomic
 build_property.RootNamespace = TransferEconomic
-build_property.ProjectDir = C:\Users\mario.rosas\source\repos\TransferEconomic\TransferEconomic\
+build_property.ProjectDir = C:\Users\mario.rosas\OneDrive - NearShore Technology\Documents\TransferEconomic\TransferEconomic\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\mario.rosas\source\repos\TransferEconomic\TransferEconomic
+build_property.MSBuildProjectDirectory = C:\Users\mario.rosas\OneDrive - NearShore Technology\Documents\TransferEconomic\TransferEconomic
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/mario.rosas/source/repos/TransferEconomic/TransferEconomic/Pages/Error.cshtml]
+[C:/Users/mario.rosas/OneDrive - NearShore Technology/Documents/TransferEconomic/TransferEconomic/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mario.rosas/source/repos/TransferEconomic/TransferEconomic/Pages/Shared/_LoginPartial.cshtml]
+[C:/Users/mario.rosas/OneDrive - NearShore Technology/Documents/TransferEconomic/TransferEconomic/Pages/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mario.rosas/source/repos/TransferEconomic/TransferEconomic/Pages/_ViewImports.cshtml]
+[C:/Users/mario.rosas/OneDrive - NearShore Technology/Documents/TransferEconomic/TransferEconomic/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
