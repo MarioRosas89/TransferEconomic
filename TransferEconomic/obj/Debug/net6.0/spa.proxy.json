@@ -1,0 +1,8 @@
+{
+"SpaProxyServer": {
+"ServerUrl": "https://localhost:44436",
+"LaunchCommand": "npm start",
+"WorkingDirectory": "C:\\Users\\mario.rosas\\source\\repos\\TransferEconomic\\TransferEconomic\\ClientApp\\",
+"MaxTimeoutInSeconds": "120"
+}
+}
