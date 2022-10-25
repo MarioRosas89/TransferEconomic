@@ -26,7 +26,7 @@ namespace TransferEconomic.Controllers
             
             if (fromId == null || toId == null)
                 return NotFound();
-            var list = await _context.Tickets.Where(x => x.FromIdPlace == fromId.Id && x.ToIdPlace == toId.Id).ToListAsync();
+            var list = await _context.Tickets.Where(x => x.FromIdZone == fromId.ZoneId && x.ToIdZone == toId.ZoneId).ToListAsync();
             return CreatedAtAction(nameof(list), list);
         }
 

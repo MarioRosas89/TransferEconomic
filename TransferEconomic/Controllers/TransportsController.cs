@@ -20,7 +20,7 @@ namespace TransferEconomic.Controllers
         [HttpGet]
         public async Task<IEnumerable<Places>> Get()
         {
-            Utils.SendWhatsapp();
+            Utils.SendWhatsapp("Alguien entro");
             return await _context.Places.Select(x => x).ToListAsync();
         }
 

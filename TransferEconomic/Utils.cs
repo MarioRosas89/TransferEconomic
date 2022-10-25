@@ -5,6 +5,7 @@ using static Duende.IdentityServer.Models.IdentityResources;
 using RestSharp;
 using Twilio;
 using Twilio.Rest.Api.V2010.Account;
+using Twilio.Types;
 
 namespace TransferEconomic
 {
@@ -35,23 +36,25 @@ namespace TransferEconomic
             }
         }
 
-        public static void SendWhatsapp()
+        public static void SendWhatsapp(string messageBody)
         {
             try
             {
-                TwilioClient.Init("AC3215d39b66916f302ea3ffbd8c0e1bad", "df3e822b16ba8c80b4a14c6f1177704e");
+                var accountSid = "AC3215d39b66916f302ea3ffbd8c0e1bad";
+                var authToken = "df3e822b16ba8c80b4a14c6f1177704e";
+                TwilioClient.Init(accountSid, authToken);
 
-                var send = MessageResource.Create(
-                    body: "Hello there!",
-                    from: new Twilio.Types.PhoneNumber("whatsapp:+18586677180"),
-                    to: new Twilio.Types.PhoneNumber("whatsapp:+529982396905")
-                );
+                var messageOptions = new CreateMessageOptions(
+                    new PhoneNumber("whatsapp:+5219982396905"));
+                messageOptions.From = new PhoneNumber("whatsapp:+14155238886");
+                messageOptions.Body = messageBody;
 
+                var message = MessageResource.Create(messageOptions);
+                Console.WriteLine(message.Body);
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-
-                throw;
+                var m = ex.Message;
             }
             
 

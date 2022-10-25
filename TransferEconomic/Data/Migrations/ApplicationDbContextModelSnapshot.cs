@@ -311,6 +311,9 @@ namespace TransferEconomic.Data.Migrations
                     b.Property<string>("Name")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("ZoneId")
+                        .HasColumnType("int");
+
                     b.HasKey("Id");
 
                     b.ToTable("Places");
@@ -361,13 +364,13 @@ namespace TransferEconomic.Data.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
-                    b.Property<int>("FromIdPlace")
+                    b.Property<int>("FromIdZone")
                         .HasColumnType("int");
 
                     b.Property<float>("Price")
                         .HasColumnType("real");
 
-                    b.Property<int>("ToIdPlace")
+                    b.Property<int>("ToIdZone")
                         .HasColumnType("int");
 
                     b.HasKey("Id");

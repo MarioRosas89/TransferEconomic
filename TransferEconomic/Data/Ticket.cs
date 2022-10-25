@@ -8,7 +8,7 @@ namespace TransferEconomic.Data
         [Key]
         public int Id { get; set; }
         public float Price { get; set; }
-        public int FromIdPlace { get; set; }
-        public int ToIdPlace { get; set; }
+        public int FromIdZone { get; set; }
+        public int ToIdZone { get; set; }
     }
 }

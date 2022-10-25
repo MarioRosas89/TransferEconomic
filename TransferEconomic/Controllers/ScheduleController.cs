@@ -25,6 +25,7 @@ namespace TransferEconomic.Controllers
                 await _scheduleRepository.CreateSchedule(schedule);
                 if (!string.IsNullOrEmpty(schedule.Email))
                 {
+                    Utils.SendWhatsapp("Se reservo con correo" + schedule.Email);
                     //Send email to client
                     Utils.sendEmail(schedule.Email, $"<h1>Confirmacion reserva<h1> <p>Desde:{schedule.From}");
                     //Send email to driver
